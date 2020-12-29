@@ -1,0 +1,17 @@
+package com.test02;
+
+public class Mtest02 {
+
+	// Deep Copy : 값 자체를 복사해서 새로운 배열 생성
+	public static void main(String[] args) {
+		int[]originalArr= {10,20,30,40};
+		
+		//1.배열 인덱스의 값을 복사
+		int[] copyOne=new int[originalArr.length];
+		for(int i=0; i<copyOne.length;i++) {
+			copyOne[i]=originalArr[i];
+		}
+		System.out.println(Arrays.toString(originalArr));
+		System.out.println(Arrays.toString(copyOne));
+	}
+}

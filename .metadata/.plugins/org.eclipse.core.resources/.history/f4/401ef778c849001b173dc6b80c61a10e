@@ -1,0 +1,8 @@
+package com.test06;
+
+public class RandomPT {
+
+	public static void main(String[] args) {
+		String[] qclass=[]
+	}
+}

@@ -1,0 +1,14 @@
+package com.test02;
+
+public class Turtle extends Animal{
+
+	@Override
+	public void start() {
+		System.out.println("∞≈∫œ¿Ã ∞»¥¬¥Ÿ.");
+	}
+	
+	@Override
+	public void stop() {
+		System.out.println("∞≈∫œ¿Ã ∏ÿ√Ë¥Ÿ.");
+	}
+}

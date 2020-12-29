@@ -1,0 +1,14 @@
+package com.test02;
+
+public class Dog extends Animal{
+
+	@Override
+	public void start() {
+		System.out.println("∏€∏€¿Ã ∞»¥¬¥Ÿ.");
+	}
+	
+	@Override
+	public void stop() {
+		System.out.println("∏€∏€¿Ã ∏ÿ√Ë¥Ÿ.");
+	}
+}

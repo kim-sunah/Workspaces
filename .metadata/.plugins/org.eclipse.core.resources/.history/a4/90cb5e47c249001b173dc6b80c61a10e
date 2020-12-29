@@ -1,0 +1,17 @@
+package com.test03;
+
+import com.test.Dog;
+
+public class MTest {
+
+	public static void main(String[] args) {
+		Cat cat=new Cat();
+		cat.bark();
+		cat.eat("»ý¼±");
+		
+		Dog dog=new Dog();
+		dog.bark();
+		dag.eat("»À´Ù±Í");
+		
+	}
+}
