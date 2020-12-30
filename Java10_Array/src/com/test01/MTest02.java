@@ -39,20 +39,8 @@ public class MTest02 {
 		};
 		test(s);
 	}
-	public static void test(String[][] arr) {
-		// Good -> Nice
-		// 어려워 -> 쉬워
-		// 전체 출력
-		arr[0][2]="Nice";
-		arr[1][1]="쉬워";
-		
-		for(int i=0;i<arr.length; i++) {
-			for(int j=0;j<arr[i].length;j++) {
-				System.out.print(arr[i][j]+" ");
-			}
-			System.out.println();
-		}
-	}
+	
+	
 	/*
 	 * 1 2 3 4
 	 * 5
@@ -68,5 +56,22 @@ public class MTest02 {
 			System.out.println();
 		}
 	}
+	
+	
+	public static void test(String[][] arr) {
+		// Good -> Nice
+		// 어려워 -> 쉬워
+		// 전체 출력
+		arr[0][2]="Nice";
+		arr[1][1]="쉬워";
+		
+		for(int i=0;i<arr.length; i++) {
+			for(int j=0;j<arr[i].length;j++) {
+				System.out.print(arr[i][j]+" ");
+			}
+			System.out.println();
+		}
+	}
+
 
 }

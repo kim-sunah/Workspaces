@@ -35,5 +35,6 @@ class MySortTest implements Comparator<String>{
 		}else if(tmp1<tmp2) {
 			return -1;
 		}
+		return 0;
 	}
 }

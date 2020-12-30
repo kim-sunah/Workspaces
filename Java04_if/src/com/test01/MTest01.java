@@ -4,7 +4,7 @@ public class MTest01 {
 
 	public static void main(String[] args) {
 		prn01();
-		prn02(false,false);
+		prn02(true,false);
 	}
 	public static void prn01() {
 		int i=2;

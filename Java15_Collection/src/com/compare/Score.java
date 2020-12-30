@@ -89,10 +89,12 @@ public class Score implements Comparable<Object>{
 		// 0이면 같은 값
 		// -1이면 뒤의 인자가 더 큰값
 		if(this.getKor()>other.getKor()) {
+			
 			return 1;
 		}else if(this.getKor()<other.getKor()) {
 			return -1;
-		}else {//else if(this.getKor()==other.getKor())
+		}else {
+			//else if(this.getKor()==other.getKor())
 			if(this.getEng()>other.getEng()) {
 				return 1;
 			}else if(this.getEng()<other.getEng()) {

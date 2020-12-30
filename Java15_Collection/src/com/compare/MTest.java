@@ -13,7 +13,8 @@ public class MTest {
 		student[1]=new Score("이순신",77,90,88);
 		student[2]=new Score("김선아",100,80,100);
 		
-		for(Score score:student) {
+		for(Score score:student) {		//이  : 이게 뭘까요
+			//스코어:스튜던트
 			System.out.println(score);
 		}
 		
@@ -25,8 +26,10 @@ public class MTest {
 		//정렬
 		int[] arr= {1,5,3,4,2};
 		System.out.println(Arrays.toString(arr));
+		//[1, 5, 3, 4, 2]
 		Arrays.sort(arr);
 		System.out.println(Arrays.toString(arr));
+		//[1, 2, 3, 4, 5]
 	}
 
 }
