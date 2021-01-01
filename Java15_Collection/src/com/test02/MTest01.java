@@ -1,11 +1,18 @@
 package com.test02;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class MTest01 {
 	public static void main(String[] args) {
 		List<String>list=new ArrayList<String>();
+		//부모타입으로 자식객체를 선언했다=다형성
+		//List 순서O,중복O
 		list.add("홍길동");
 		list.add("이순신");
 		list.add("김선달");
@@ -16,8 +23,46 @@ public class MTest01 {
 		list.add("조세호");
 		
 		System.out.println(list);
-		prn(list);
-		transElement(list);
+		System.out.println(list.get(2));
+		//prn(list);
+		//transElement(list);
+		Set<String>myset=new HashSet<String>();
+		//Set순서X,중복X
+		myset.add("홍길동");
+		myset.add("이순신");
+		myset.add("김선달");
+		myset.add("홍길동");
+		
+		System.out.println(myset);
+		//방법1
+		Object[]setArray= myset.toArray();
+		for(Object o:setArray) {
+			System.out.println(o);
+		}
+		for(int i=0;i<setArray.length;i++) {
+			System.out.println(setArray[i]);
+		}
+		
+		//방법2
+		Iterator<String>setiterator= myset.iterator();
+		while(setiterator.hasNext()) {
+			System.out.println(setiterator.next());
+		}
+		
+		
+		
+		Map<Integer, String>mymap=new HashMap<Integer, String>();
+		
+		
+		mymap.put(1, "syyo");
+		mymap.put(2, "kageyama");
+		mymap.put(10, "hinata");
+		mymap.put(5, "sunah");
+		mymap.put(5, "syyo");
+		System.out.println(mymap);
+		
+		System.out.println(mymap.get(1));
+		
 	}
 	//{d,d,d,....d}
 	private static void prn(List<String>list) {

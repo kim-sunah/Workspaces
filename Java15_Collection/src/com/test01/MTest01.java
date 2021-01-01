@@ -5,7 +5,8 @@ import java.util.Vector;
 public class MTest01 {
 
 	public static void main(String[] args) {
-		//Vector
+		//Vector==list
+		//크기 가변/크기고정
 		Vector<Integer>v= new Vector<Integer>(10,5);
 		
 		System.out.println(v.size()+" : "+v.capacity());
