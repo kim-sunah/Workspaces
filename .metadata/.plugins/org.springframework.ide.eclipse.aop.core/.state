@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="bean"/>
 <aop-project name="DBTest02_1"/>
+<aop-project name="2021-01-02"/>
+<aop-project name="bean(1)"/>
 </aop-reference-model>
